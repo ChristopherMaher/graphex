@@ -1,0 +1,9 @@
+digraph NFA {
+rankdir=LR;
+node [shape = none]; "";
+node [shape = doublecircle]; Q2;
+node [shape = circle];
+""->Q1
+Q1->Q2[label="a"];
+
+}
